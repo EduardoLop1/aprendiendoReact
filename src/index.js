@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import PrimerComponente from './AppEjemplo';
+import Header from './componentes/header';
+import Corrousel from './componentes/carrousel';
+import Target from './componentes/target';
+import FormRegister from './FormRegister';
+import FormUsuario from './FormUser';
+import Git from './practicaGit';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Git/>
   </React.StrictMode>
 );
 
