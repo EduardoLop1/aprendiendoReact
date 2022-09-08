@@ -25,7 +25,7 @@ const Git=()=>{
             </div>
             <article>
                 <div className="container">
-                    <img src={user.sprites.other.home.front_default} alt=""/>
+                    <img src="" alt=""/>
                     <h4>{user.name}</h4>
                     <p></p>
                 </div>
