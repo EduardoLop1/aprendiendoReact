@@ -10,10 +10,11 @@ import Target from './componentes/target';
 import FormRegister from './FormRegister';
 import FormUsuario from './FormUser';
 import Git from './practicaGit';
+import Home from './home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Git/>
+    <Home/>
   </React.StrictMode>
 );
 
